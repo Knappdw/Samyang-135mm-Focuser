@@ -1,1 +1,9 @@
-hello world
+# Arduino-WindowsExecutable
+
+## Samyang135mmFocuser-Executable.zip
+This zip file contains a release executable of the Samyang-135mm-Focuser project files stored in this repository.  Unzip the files and run the Samyang 135mm Focuser.exe file.
+
+## Samyang 135mm Focuser-Arduino.zip
+This zip file contains the Arduino.ino file that is used in conjunction with the WFA program above.  For this project, I have been using the Arduino Nano 33 IoT and the Arduino Nano 33 BLE Sense chips.
+
+Both the windows code and the arduino code are under development and poorly commented.  The current version of this project is being provided as requested by multiple readers.  This project will be updated in time with sufficient details.
