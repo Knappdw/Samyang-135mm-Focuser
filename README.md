@@ -11,3 +11,6 @@ This repository will only contain the code elements for the focuser but I will p
 The Samyang 135mm Lens Collar is hosted on Thingiverse here: https://www.thingiverse.com/thing:5615266
 
 More details about this and other projects can be found on my blog: https://sleeplesslights.com
+
+## Arduino-WindowsExecutable Directory
+There are 2 zip files included in the Arduino-WindowsExecutable directory which contain the Arduino .ino file for a Nano 33 IoT or Nano 33 BLE Sense chip and the Windows Forms App executable for running the program stand alone.  Please note that these files test and perform as desired, however this really is just at a proof of concept stage at this point.
