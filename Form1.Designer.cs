@@ -47,13 +47,13 @@
             this.btnRight2 = new System.Windows.Forms.Button();
             this.btnRight3 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.backlashSteps = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.lblStepSize = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tbStepSize = new System.Windows.Forms.TrackBar();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtStatus = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.backlashSteps = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tbStepSize)).BeginInit();
@@ -265,15 +265,32 @@
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(12, 169);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(418, 206);
+            this.groupBox2.Size = new System.Drawing.Size(419, 206);
             this.groupBox2.TabIndex = 10;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Focuser Control";
             // 
+            // backlashSteps
+            // 
+            this.backlashSteps.Location = new System.Drawing.Point(184, 27);
+            this.backlashSteps.Name = "backlashSteps";
+            this.backlashSteps.Size = new System.Drawing.Size(33, 22);
+            this.backlashSteps.TabIndex = 14;
+            this.backlashSteps.Text = "48";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(9, 33);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(158, 16);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Backlash Step Correction";
+            // 
             // lblStepSize
             // 
             this.lblStepSize.AutoSize = true;
-            this.lblStepSize.Location = new System.Drawing.Point(359, 68);
+            this.lblStepSize.Location = new System.Drawing.Point(362, 71);
             this.lblStepSize.Name = "lblStepSize";
             this.lblStepSize.Size = new System.Drawing.Size(21, 16);
             this.lblStepSize.TabIndex = 12;
@@ -282,7 +299,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 80);
+            this.label1.Location = new System.Drawing.Point(9, 71);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(99, 16);
             this.label1.TabIndex = 11;
@@ -302,7 +319,7 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.txtStatus);
-            this.groupBox3.Location = new System.Drawing.Point(14, 381);
+            this.groupBox3.Location = new System.Drawing.Point(12, 381);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(417, 210);
             this.groupBox3.TabIndex = 11;
@@ -320,29 +337,12 @@
             this.txtStatus.Size = new System.Drawing.Size(404, 182);
             this.txtStatus.TabIndex = 0;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 33);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(158, 16);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Backlash Step Correction";
-            // 
-            // backlashSteps
-            // 
-            this.backlashSteps.Location = new System.Drawing.Point(184, 27);
-            this.backlashSteps.Name = "backlashSteps";
-            this.backlashSteps.Size = new System.Drawing.Size(33, 22);
-            this.backlashSteps.TabIndex = 14;
-            this.backlashSteps.Text = "48";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(442, 603);
+            this.ClientSize = new System.Drawing.Size(449, 603);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);

@@ -8,9 +8,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Samyang 135mm Focuser")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Kyndryl")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Samyang 135mm Focuser")]
-[assembly: AssemblyCopyright("Copyright © Kyndryl 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
